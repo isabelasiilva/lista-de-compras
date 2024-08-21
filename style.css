@@ -87,9 +87,11 @@ h1 {
   align-items: center;
   background-color: white;
   border-radius: 12px;
+  color: var(--content-secondary);
+  font-weight: 500;
 }
 
-#itemBox p {
+#itemBox p, #aler p {
   text-align: left;
   width: 531px;
 }
@@ -106,4 +108,22 @@ h1 {
 
 #itemBox img {
   margin: 8.5px 12px;  
+}
+
+#alert {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  background-color: var(--color-danger);
+
+  color: white;
+}
+
+#alert img {
+  margin: 12px;
+}
+
+#alert p {
+  text-align: left;
+  width: 531px;
 }
