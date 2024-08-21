@@ -1,3 +1,19 @@
+:root {
+  /* cores de fonte padrões */
+  --content-primary: #080B12;
+  --content-secondary: #374151;
+  --content-tertiary: #9CA3AF;
+
+  /* cores de borda padrões */
+  --border-primary: #D1D5DB;
+  --border-hover: #B9C2D0;
+
+  /* cores de botões*/
+  --color-brand: #CA3884;
+  --color-brand-hover: #A52C6B;
+  --color-danger: #C93847;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,11 +23,21 @@ body {
   margin: 0px auto;
   width: 627px;
   border: solid 1px red;
+  font-family: "Inter", sans-serif;
 }
 
 header {
-  margin: 20px auto 40px;
+  display: flex;
+  justify-content: center;
+  margin: 25px auto 40px;
+  gap:  7px;
+
   text-align: center;
+  font-family: "Sora", sans-serif;
+  font-weight: bold;
+  font-size: 26.67px;
+  line-height: 40px;
+  color: var(--content-secondary);
 }
 
 #lista {
