@@ -22,7 +22,6 @@
 body {
   margin: 0px auto;
   width: 630px;
-  border: solid 1px red;
   font-family: "Inter", sans-serif;
 
   background-color: #F4F5FB;
@@ -42,10 +41,9 @@ header {
   color: var(--content-secondary);
 }
 
-#lista {
-  border: solid 1px grey;
+/* #lista {
   margin: 40px;
-}
+} */
 
 main button {
   background: none;
@@ -55,6 +53,9 @@ main button {
 h1 {
   color: var(--content-primary);
   margin: 16px auto 44px;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
 }
 
 #inputTxt {
@@ -73,4 +74,41 @@ h1 {
   border-radius: 12px;
   background-color: var(--color-brand);
   color: white;
+
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+#lista {
+  width: 627px;
+  margin: 40px 0 36px 0;
+  gap: 12px;
+}
+
+#itemBox {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+}
+
+#itemBox p {
+  text-align: left;
+  width: 531px;
+}
+
+#itemBox input {
+  margin: 16.5px 12px;
+  appearance: none;
+  border: solid 1px;
+  border-color: var(--border-primary);
+  border-radius: 6px;
+  width: 16px;
+  height: 16px;
+}
+
+#itemBox img {
+  margin: 8.5px 12px;
+  
 }
